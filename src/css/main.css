@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.box-produto-header h3 {
+.box-produto-header h4 {
   margin-top: 20px;
 }
 
@@ -34,7 +34,7 @@
 
 .whatsapp {
   position: fixed;
-  top: 82%;
+  top: 90%;
   left: 5%;
   padding: 10px;
   color: #FFF;
