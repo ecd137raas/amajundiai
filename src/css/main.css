@@ -1,0 +1,95 @@
+.box-produto-header {
+  text-align: center;
+}
+
+.box-produto-header h3 {
+  margin-top: 20px;
+}
+
+.box-produto-header hr {
+  opacity: inherit;
+}
+
+.box-produto {
+  margin: 10px;
+  height: 300px;
+}
+
+.box-produto img {
+  width:150px; 
+  height:150px; 
+}
+
+.box-produto p {
+  margin-top: 7px;
+  font-size: 14px;
+  color: gray;
+}
+
+.box-produto h6 {
+  color: gray;
+  font-weight: bold;
+}
+
+
+.whatsapp {
+  position: fixed;
+  top: 82%;
+  left: 5%;
+  padding: 10px;
+  color: #FFF;
+  z-index: 10000000;
+
+  width: 220px;
+  height: 50px;
+  background-color: #199E0F;
+  border-radius: 10px;
+  opacity: 90%;
+ 
+}
+
+
+
+.figure-box {
+  width: 100%;
+  position: relative;
+}
+.figure-box figure {
+  overflow: hidden;
+  position: relative;
+}
+.figure-box figure img {
+  max-width: 100%;
+  position: relative;
+}
+
+.figure-box figcaption {
+  position: absolute;
+  top: 5%;
+  bottom: 0;
+  left: 0%;
+  width: 0%;
+  height: 120px;
+  padding: 10px;
+  opacity: 75%;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.footer {
+  width: auto;
+  height: 80px; 
+  margin-top: 20px;
+  background-color: rgb(225, 239, 248);
+}
+.footer h5 {
+  font-size: small;
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+}
