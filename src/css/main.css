@@ -49,9 +49,13 @@
 }
 
 .footer {
-  height: 80px;
+  text-align: center;
+  padding: 0.5px;
+  margin: 0;
+  height: 0 auto;
   margin-top: 20px;
-  background-color: rgba(245, 247, 248, 0.911);
+  background-color: lightgray;
+  color: black;
 }
 
 .footer h5 {
