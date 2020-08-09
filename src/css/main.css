@@ -1,95 +1,70 @@
-.box-produto-header {
+.header {
+  width: 100%;
+  height: 0 auto;
+  background-color: #439AF9;
+}
+.header img{
+  width: 100%;
+}
+.box-body {
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
-
-.box-produto-header h4 {
+.box-body a {
+  text-decoration: none;
+}
+.box-body h4 {
   margin-top: 20px;
+  padding: 0;
+  font: 700 1.8rem Poppins;
+  color: dimgray;
 }
-
-.box-produto-header hr {
+.box-body h6 {
+  font-weight: lighter;
+  font: 400 0.9rem Poppins;
+}
+.box-body p {
+  font: 400 0.8rem Poppins;
+}
+.box-body hr {
   opacity: inherit;
 }
-
-.box-produto {
-  margin: 10px;
-  height: 300px;
+.box-body img {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
 }
-
-.box-produto img {
-  width:150px; 
-  height:150px; 
-}
-
-.box-produto p {
-  margin-top: 7px;
-  font-size: 14px;
-  color: gray;
-}
-
-.box-produto h6 {
-  color: gray;
-  font-weight: bold;
-}
-
 
 .whatsapp {
   position: fixed;
-  top: 90%;
-  left: 5%;
-  padding: 10px;
-  color: #FFF;
-  z-index: 10000000;
-
-  width: 220px;
-  height: 50px;
-  background-color: #199E0F;
-  border-radius: 10px;
-  opacity: 90%;
- 
+  top: 80%;
+  left: 10%;
 }
 
-
-
-.figure-box {
-  width: 100%;
-  position: relative;
-}
-.figure-box figure {
-  overflow: hidden;
-  position: relative;
-}
-.figure-box figure img {
-  max-width: 100%;
-  position: relative;
-}
-
-.figure-box figcaption {
-  position: absolute;
-  top: 5%;
-  bottom: 0;
-  left: 0%;
-  width: 0%;
-  height: 120px;
-  padding: 10px;
-  opacity: 75%;
-  color: black;
-  font-weight: bold;
-  font-size: 15px;
+.whatsapp img {
   text-align: center;
+  width: 60px;
+  height: 60px;
 }
-
 
 .footer {
-  width: auto;
-  height: 80px; 
+  height: 80px;
   margin-top: 20px;
-  background-color: rgb(225, 239, 248);
-}
-.footer h5 {
-  font-size: small;
+  background-color: rgba(245, 247, 248, 0.911);
 }
 
-.footer img {
-  width: 30px;
-  height: 30px;
+.footer h5 {
+  font: 400 0.9rem Poppins;
+}
+
+.footer h6 {
+  font: 400 0.7rem Poppins;
+}
+
+
+@media(min-width: 700px){
+  .header img {
+    width: auto;
+  }
 }
