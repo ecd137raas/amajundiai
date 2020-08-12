@@ -1,39 +1,74 @@
+:root {
+  --color-background: #F0F0F7;
+  --color-primary-lighter: #9871F5;
+  --color-primary-light: #916BEA;
+  --color-primary: #8257E5;
+  --color-primary-dark: #774DD6;
+  --color-primary-darker: #6842C2;
+  --color-secundary: #04D361;
+  --color-secundary-dark: #04BF58;
+  --color-title-in-primary: #FFFFFF;
+  --color-text-in-primary: #D4C2FF;
+  --color-text-title: #32264D;
+  --color-text-complement: #9C98A6;
+  --color-text-base: #6A6180;
+  --color-line-in-white: #E6E6F0;
+  --color-input-background: #F8F8FC;
+  --color-button-text: #FFFFFF;
+  --color-box-base: #FFFFFF;
+  --color-box-footer: #FAFAFC;
+  --color-primary-header: #439AF9;
+  
+  font-size: 100%;
+}
+.body {
+  background-color: var(--color-background);
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
 .header {
-  width: 100%;
-  height: 0 auto;
-  background-color: #439AF9;
+  display: flex;
+  width: 0 auto;
+  background-color: var(--color-primary-header);
 }
 .header img{
   width: 100%;
 }
-.box-body {
-  text-align: center;
-  padding: 0;
-  margin: 0;
+
+.box-body-item {
+  background: var(--color-box-base);
+  border: var(--color-line-in-write);
+  border-radius: 0.8rem;
+  margin-top: 2.4rem;
+  margin: 0.8rem;
+  overflow: hidden;
+  padding: 3.2rem 2rem;
 }
-.box-body a {
-  text-decoration: none;
-}
-.box-body h4 {
-  margin-top: 20px;
-  padding: 0;
+.box-body-item header {
   font: 700 1.8rem Poppins;
   color: dimgray;
+  padding: 0;
+  align-items: center;
 }
-.box-body h6 {
-  font-weight: lighter;
-  font: 400 0.9rem Poppins;
+.box-body-item p {
+  font: 400 0.9rem Archivo;
 }
-.box-body p {
-  font: 400 0.8rem Poppins;
+.box-body-item p img {
+  width: 1.0rem;
+  height: 1.0rem;
 }
-.box-body hr {
-  opacity: inherit;
+.box-body-item a {
+  text-decoration: none;
 }
-.box-body img {
-  width: 40px;
-  height: 40px;
+.box-body-item img {
+  width: 30px;
+  height: 30px;
   padding: 3px;
+}
+.box-body-item div img {
+  width: 350px;
+  height: 450px;
 }
 
 .whatsapp {
@@ -41,7 +76,6 @@
   top: 80%;
   left: 10%;
 }
-
 .whatsapp img {
   text-align: center;
   width: 60px;
@@ -54,16 +88,15 @@
   margin: 0;
   height: 0 auto;
   margin-top: 20px;
-  background-color: lightgray;
   color: black;
 }
 
 .footer h5 {
-  font: 400 0.9rem Poppins;
+  font: 400 0.9rem Archivo;
 }
 
 .footer h6 {
-  font: 400 0.7rem Poppins;
+  font: 400 0.7rem Archivo;
 }
 
 
@@ -71,4 +104,10 @@
   .header img {
     width: auto;
   }
+  .box-body-item {
+    text-align: center;
+    padding: 3.2rem 2;
+    max-width: 1000px;
+    margin: 10px auto;
+}
 }
