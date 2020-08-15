@@ -1,0 +1,8 @@
+##### LOCAWEB - NAO REMOVER #####
+AddHandler php73-script .php
+suPHP_ConfigPath /home/amajundiai1/
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.amajundiai.org.br/$1 [R,L]
+##### LOCAWEB - NAO REMOVER #####
