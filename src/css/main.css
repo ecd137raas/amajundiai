@@ -23,9 +23,6 @@
 }
 .body {
   background-color: var(--color-background);
-  margin: 0;
-  padding: 0;
-  box-sizing: 0;
 }
 
 .header {
@@ -36,7 +33,6 @@
 }
 .header img{
   width: 100%;
-  
 }
 
 .box-body-item {
@@ -50,7 +46,7 @@
 }
 .box-body-item header {
   font: 700 1.8rem Poppins;
-  color: dimgray;
+  color: var(--color-text-title);
   padding: 0;
   align-items: center;
 }
@@ -91,7 +87,7 @@
   margin: 0;
   height: 0 auto;
   margin-top: 20px;
-  color: black;
+  color: var(--color-primary-darker);
 }
 
 .footer h5 {
