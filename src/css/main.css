@@ -29,19 +29,21 @@
 }
 
 .header {
-  display: flex;
-  width: 0 auto;
+  position: relative;
+  margin: auto;
+  max-width: 1060px;
   background-color: var(--color-primary-header);
 }
 .header img{
   width: 100%;
+  
 }
 
 .box-body-item {
   background: var(--color-box-base);
   border: var(--color-line-in-write);
   border-radius: 0.8rem;
-  margin-top: 2.4rem;
+  margin-top: 5.4rem;
   margin: 0.8rem;
   overflow: hidden;
   padding: 3.2rem 2rem;
